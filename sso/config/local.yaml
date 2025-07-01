@@ -1,0 +1,5 @@
+env: local  # опционально (есть env-default)
+storage_path: "postgres://postgres:password@localhost:5432/sso?sslmode=disable"  # обязательно
+token_ttl: 1h  # обязательно
+grpc:
+  port: 44044   # структура GRPCConfig 
